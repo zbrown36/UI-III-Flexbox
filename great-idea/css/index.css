@@ -144,6 +144,7 @@ button:hover {
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
+	height: 300px;
 }
 .block-info {
 	display: flex;
@@ -158,18 +159,19 @@ button:hover {
 }
 .middle-img {
 	width: 90%;
+	text-align: center;
 }
 .block-2 {
-	/*border-top: 1px solid black;
-	border-bottom: 1px solid black;*/
+	border-top: 1px solid black;
 	padding: 20px;
 	margin: 1%;
 	display: flex;
 	flex-direction: row;
-	
-section h4 {
-	width: 500px;
-	text-align:center;
+	height: 300px;
+}
+section h4{
+	width: 200px;
+	text-align: center;
 }
 .block-2 .block-info {
 	display: flex;
@@ -180,27 +182,27 @@ section h4 {
 	 margin: 1%;
 	 flex-direction: column;
 	 align-self: center;
-	 border: 1px solid red;
 
+}
+footer {
+	border-top: 1px solid black;
+	width: 90%;
+	height: 400px;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
 }
 address{
 	display: flex;
 	margin: 1%;
-	width: 23.25%;
+	height:300px;
 	 flex-direction: column;
-	 line-height: 1.5px;
 	 font-size: 25px;
-	 padding-bottom: 20px;
 
 	
 }
 #copyrite {
 	font-size: 20px;
-}
-address p {
-	margin: 1%;
-	width: 23.25%;
-	font-size: 25px;
-	line-height: 1.5px;
-	
+	text-align: center;
+	width: 90%;
 }
