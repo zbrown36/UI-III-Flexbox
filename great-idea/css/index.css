@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	display: flex;
+	border: 3px solid red;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid black;
+	flex-wrap: wrap;
+	align-items: stretch;
+	text-align: center;
+}
+.nav_flex{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	align-content: space-around;
+	border: 1px solid blue;
+}
+nav a {
+	height: 100%;
+	width: 100px;
+	margin: auto;
+	color: lightgray;
+	font-size: 25px;
+	text-decoration: none;
+	border: 1px solid yellow;
+	align-content: space-around;
+	text-align: center;
+	padding: 20px;
+
+}
+nav a:hover {
+	background: gray;
+	color: red;
+}
+.logo { 
+	height: 100px;
+	width: 200px;
+	margin: auto;
+	padding: 0;
+	border: 1px solid black;
+}
+
+header {
+	display: flex;
+	width: 100%;
+
+}
+.slogan_flex {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.matrix{
+	height:auto;
+	width: auto;
+}
+.slogan {
+	 height: auto;
+	 width: 50%;
+}
+.block-info {
+	 
+}
+button {
+	
+}
+button:hover {
+	background: gray;
+	color: red;
+}
+.middle-img {
+	
+}
+.block-1 {
+	border-top: 1px solid black;
+}
+.block-2 {
+	border-top: 1px solid black;
+	
+section h4 {
+	width: 400px;
+}
+p {
+	
+}
+.block1 .block-info {
+	
+}
+.block-2 .block-info {
+	
+}
+address{
+	
+}
+address p {
+	
+}
