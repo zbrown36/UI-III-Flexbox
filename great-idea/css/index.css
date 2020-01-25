@@ -93,17 +93,18 @@ nav a {
 	font-size: 25px;
 	text-decoration: none;
 	text-align: center;
-	padding: 1%;
 
 }
 nav a:hover {
 	background: gray;
 	color: red;
 }
+nav a .logo:hover{
+	background: white;
+}
 .logo { 
-	width: 23.25%
+	width: 23.25%;
 	height: 80%;
-	padding: 1%;
 }
 
 header {
@@ -167,7 +168,8 @@ button:hover {
 	margin: 1%;
 	display: flex;
 	flex-direction: row;
-	height: 300px;
+	height: 400px;
+	align-content: center;
 }
 section h4{
 	width: 200px;
@@ -205,4 +207,5 @@ address{
 	font-size: 20px;
 	text-align: center;
 	width: 90%;
+	margin-right: -50%
 }
